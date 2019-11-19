@@ -1,4 +1,4 @@
-package com.example.desafiowebservice;
+package com.example.desafiowebservice.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -8,10 +8,10 @@ import androidx.navigation.ui.AppBarConfiguration;
 
 import android.os.Bundle;
 
+import com.example.desafiowebservice.R;
 import com.example.desafiowebservice.view.fragment.AutorsFragment;
 import com.example.desafiowebservice.view.fragment.HeroesFragment;
 import com.example.desafiowebservice.view.fragment.HqsFragment;
-import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        initViews();
 
         BottomNavigationView navView = findViewById(R.id.nav_view);
 
@@ -45,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
 
             return true;
         });
+
+    }
+
+    private void initViews() {
 
     }
 
