@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Heroi"
+        android:icon="@drawable/ic_shield"
+        android:title="Herois" />
+
+    <item
+        android:id="@+id/navigation_Quadrinhos"
+        android:icon="@drawable/ic_hqs"
+        android:title="Quadrinho" />
+
+    <item
+        android:id="@+id/navigation_Autores"
+        android:icon="@drawable/ic_autors"
+        android:title="Autores" />
+
+</menu>
