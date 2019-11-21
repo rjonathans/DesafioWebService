@@ -21,14 +21,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initViews();
+        replaceFragment( new HqsFragment());
+
 
         BottomNavigationView navView = findViewById(R.id.nav_view);
+        getSupportActionBar().hide();
 
-        replaceFragment( new HqsFragment());
+
 
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.navigation_Heroi, R.id.navigation_Quadrinhos, R.id.navigation_Autores).build();
+
+
 
         navView.setOnNavigationItemSelectedListener(menuItem ->{
             int id =menuItem.getItemId();
@@ -47,10 +51,6 @@ public class MainActivity extends AppCompatActivity {
 
             return true;
         });
-
-    }
-
-    private void initViews() {
 
     }
 

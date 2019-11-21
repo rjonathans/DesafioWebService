@@ -1,22 +1,22 @@
 
-package com.example.desafiowebservice.model.pojo;
+package com.example.desafiowebservice.model.pojo.Hqs;
 
 import com.google.gson.annotations.Expose;
 
 
-public class Price {
+public class Date {
 
     @Expose
-    private Double price;
+    private String date;
     @Expose
     private String type;
 
-    public Double getPrice() {
-        return price;
+    public String getDate() {
+        return date;
     }
 
-    public void setPrice(Double price) {
-        this.price = price;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public String getType() {

@@ -1,12 +1,12 @@
 
-package com.example.desafiowebservice.model.pojo;
+package com.example.desafiowebservice.model.pojo.Hqs;
 
 import com.google.gson.annotations.Expose;
 
 import java.util.List;
 
 
-public class Creators {
+public class Stories {
 
     @Expose
     private Long available;

@@ -1,10 +1,10 @@
 
-package com.example.desafiowebservice.model.pojo;
+package com.example.desafiowebservice.model.pojo.Hqs;
 
 import com.google.gson.annotations.Expose;
 
 
-public class ComicsResponse {
+public class Quadrinhos {
 
     @Expose
     private String attributionHTML;

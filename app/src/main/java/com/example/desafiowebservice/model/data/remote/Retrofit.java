@@ -1,16 +1,17 @@
-package com.example.desafiowebservice.model.data.remote;
+    package com.example.desafiowebservice.model.data.remote;
 
-import com.facebook.stetho.okhttp3.BuildConfig;
-import com.facebook.stetho.okhttp3.StethoInterceptor;
 
-import java.util.concurrent.TimeUnit;
+    import com.example.desafiowebservice.BuildConfig;
+    import com.facebook.stetho.okhttp3.StethoInterceptor;
 
-import okhttp3.OkHttpClient;
-import okhttp3.logging.HttpLoggingInterceptor;
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
-import retrofit2.converter.gson.GsonConverterFactory;
+    import java.util.concurrent.TimeUnit;
 
-public class Retrofit {
+    import okhttp3.OkHttpClient;
+    import okhttp3.logging.HttpLoggingInterceptor;
+    import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
+    import retrofit2.converter.gson.GsonConverterFactory;
+
+    public class Retrofit {
 
     private static final String BASE_URL = "https://gateway.marvel.com:443/v1/public/";
     

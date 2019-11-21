@@ -14,7 +14,7 @@ import com.example.desafiowebservice.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HeroesFragment extends Fragment {
+public class HeroesFragment extends Fragment{
 
 
     public HeroesFragment() {
